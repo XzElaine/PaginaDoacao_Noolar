@@ -1,0 +1,30 @@
+.ContainerSlogan {
+    margin-top: -200px;
+    background: url(src/assets/BackgroundSlogan.png) no-repeat center center;
+    width: 100%;
+    min-height: 140vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -100px;
+}
+
+.Slogan {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 500px;
+}
+
+.spanSlogan {
+    color: #F3B95A;
+}
+
+@media (max-width: 1400px) {
+    .ContainerSlogan {
+        margin-top: 40px;
+    }
+    .spanSlogan {
+        color: #F3B95A;
+    }
+}
