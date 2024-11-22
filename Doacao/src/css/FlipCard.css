@@ -171,6 +171,32 @@
   }
 }
 
+@media (max-width: 830px) {
+  .texto2 {
+    font-size: 1.3rem;
+  }
+
+  .card-1 {
+    margin-top: 1650px;
+    left: 30px;
+  }
+  
+  .card-2 {
+    margin-top: 1650px;
+    left: 500px;
+  }
+  
+  .card-3 {
+    margin-top: 1500px;
+    left: 30px;
+
+  }
+  
+  .card-4 {
+    margin-top: 1500px;
+    left: 500px;
+  }
+}
 
 @media (max-width: 768px) {
   .flip-card-front,
@@ -183,13 +209,20 @@
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 2rem;
   }
 
   .flip-card {
+    margin-top: -350px;
     width: 80vw;
-    height: 50vh;
+    height: 55vh;
+    margin-left: 70px;
+  }
+
+  .flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+    margin-left: -17vw;
   }
 
   .flip-card-container {

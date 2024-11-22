@@ -1,5 +1,5 @@
 .ContainerSlogan {
-    margin-top: -200px;
+    margin-top: 200px;
     background: url(src/assets/BackgroundSlogan.png) no-repeat center center;
     width: 100%;
     min-height: 140vh;
@@ -26,5 +26,11 @@
     }
     .spanSlogan {
         color: #F3B95A;
+    }
+}
+
+@media (max-width: 768px) {
+    .ContainerSlogan {
+        margin-top: -350px;
     }
 }

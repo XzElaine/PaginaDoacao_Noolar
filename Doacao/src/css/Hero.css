@@ -157,12 +157,73 @@
     
 }
 
+@media (max-width: 830px) {
+    .imagemDonar {
+        width: 77vw;
+        height: 800px;  
+        }
+
+    .retanguloMotivo1 {
+        width: 650px;
+        height: 210px;
+        left: 50px;
+        top: 1067px;
+    }
+    
+    .retanguloMotivo2 {
+        width: 650px;
+        height: 210px;
+        left: 50px;
+        top: 1464px;
+    }
+    
+    .retanguloMotivo3 {
+        width: 650px;
+        height: 210px;
+        left: 50px;
+        top: 1843px;
+        margin-bottom: 200px;
+    }   
+}
+
 /* Ajustes para tablets (768px ou menos) */
 
 @media (max-width: 768px) {
+    .imagemDonar {
+        width: 70vw;
+        height: 800px;  
+        }
 
+    .retanguloMotivo1 {
+        width: 650px;
+        height: 210px;
+        left: 20px;
+        top: 1067px;
+    }
+    
+    .retanguloMotivo2 {
+        width: 650px;
+        height: 210px;
+        left: 20px;
+        top: 1464px;
+    }
+    
+    .retanguloMotivo3 {
+        width: 650px;
+        height: 210px;
+        left: 20px;
+        top: 1843px;
+        margin-bottom: 200px;
+    }   
 }
 
 /* Ajustes para celulares (480px ou menos) */
 @media (max-width: 480px) {
+}
+
+@media (max-width: 390px) {
+    .imagemDonar {
+        width: 55vw;
+        height: 900px;  
+    }
 }
