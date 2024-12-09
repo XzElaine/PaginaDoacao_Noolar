@@ -25,6 +25,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: clamp(90%, 60vw, 1041px);
+    height: clamp(180px, 30vh, 261px)
 }
 
 .retanguloMotivo1 {
@@ -36,14 +38,14 @@
 
 .retanguloMotivo2 {
     width: 1041px;
-    height: 240px;
+    height: 261px;
     left: 477px;
     top: 1464px;
 }
 
 .retanguloMotivo3 {
-    width: 1318px;
-    height: 240px;
+    width: 1041px;
+    height: 261px;
     left: -32px;
     top: 1843px;
     margin-bottom: 200px;
@@ -65,7 +67,7 @@
 }
 
 
-@media (max-width: 1400px) {
+@media (max-width: 1532px) {
     .imagemDonar {
     width: 70vw;
     height: 800px;  
@@ -119,6 +121,54 @@
     }
 }
 
+@media (max-width: 1358px) {
+    .retanguloMotivo2 {
+        left: 407px;
+    }
+}
+
+@media (max-width: 1355px) {
+    .retanguloMotivo2 {
+        left: 387px;
+    }
+}
+
+@media (max-width: 1355px) {
+    .retanguloMotivo2 {
+        left: 367px;
+    }
+}
+
+@media (max-width: 1204px) {
+    .retanguloMotivo2 {
+        left: 347px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .retanguloMotivo2 {
+        left: 327px;
+    }
+}
+
+@media (max-width: 1162px) {
+    .retanguloMotivo2 {
+        left: 200px;
+    }
+}
+
+@media (max-width: 1044px) {
+    .retanguloMotivo2 {
+        left: 200px;
+    }
+}
+
+@media (max-width: 1032px) {
+    .retanguloMotivo2 {
+        left: 200px;
+    }
+}
+
 @media (max-width: 1016px) {
     .imagemDonar {
         left: 100px;
@@ -150,80 +200,49 @@
 
     .motivoDoacao {
         font-size: 2.4em; 
-        font-weight: bold;
-        color: #0d4f82; 
-        margin: 0;
     }
     
 }
 
-@media (max-width: 830px) {
+@media (max-width: 963px) {
     .imagemDonar {
-        width: 77vw;
+        left: 90px;
+        width: 75vw;
         height: 800px;  
         }
 
-    .retanguloMotivo1 {
-        width: 650px;
-        height: 210px;
-        left: 50px;
-        top: 1067px;
+    .retanguloMotivo1, .retanguloMotivo2, .retanguloMotivo3 {
+        left: 60px;
+        width: 720px;
+        height: 240px;
+    }  
+
+    .motivoDoacao {
+        font-size: 2.4em; 
     }
     
-    .retanguloMotivo2 {
-        width: 650px;
-        height: 210px;
-        left: 50px;
-        top: 1464px;
-    }
-    
-    .retanguloMotivo3 {
-        width: 650px;
-        height: 210px;
-        left: 50px;
-        top: 1843px;
-        margin-bottom: 200px;
-    }   
 }
+
+@media (max-width: 870px) {
+
+    .retanguloMotivo1, .retanguloMotivo2, .retanguloMotivo3 {
+        left: 20px;
+    }  
+
+    .motivoDoacao {
+        font-size: 2.4em; 
+    }
+    
+}
+
 
 /* Ajustes para tablets (768px ou menos) */
 
 @media (max-width: 768px) {
-    .imagemDonar {
-        width: 70vw;
-        height: 800px;  
-        }
 
-    .retanguloMotivo1 {
-        width: 650px;
-        height: 210px;
-        left: 20px;
-        top: 1067px;
-    }
-    
-    .retanguloMotivo2 {
-        width: 650px;
-        height: 210px;
-        left: 20px;
-        top: 1464px;
-    }
-    
-    .retanguloMotivo3 {
-        width: 650px;
-        height: 210px;
-        left: 20px;
-        top: 1843px;
-        margin-bottom: 200px;
-    }   
 }
 
 /* Ajustes para celulares (480px ou menos) */
 @media (max-width: 480px) {
-}
-
-@media (max-width: 390px) {
-    .imagemDonar {
-        width: 55vw;
-        height: 900px;  
-    }
+    
 }

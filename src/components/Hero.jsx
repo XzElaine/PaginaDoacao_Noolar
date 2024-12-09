@@ -1,7 +1,7 @@
 import React from "react";
-import '../css/Hero.css';
+import '../css/hero.css';
 
-function Hero (){
+function Hero() {
     return (
         <>
         <div className="containerHeroDoacao">
@@ -27,4 +27,4 @@ function Hero (){
     );
 }
 
-export default Hero;
+export default Hero; 

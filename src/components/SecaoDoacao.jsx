@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/SecaoDoacao.css';
+import '../css/secaoDoacao.css'
 
 function SecaoDoacao() {
   return (
@@ -39,11 +39,11 @@ function SecaoDoacao() {
                     <img className="centralizarIconDoar" src="src/assets/Donation.png" alt="A imagem mostra uma ilustração em estilo 3D de uma mão segurando uma moeda dourada com o símbolo de cifrão e inserindo-a em uma caixa de doação laranja com um coração desenhado na frente. Ao fundo, há elementos decorativos verdes que lembram folhas ou plantas, conferindo um tom natural e harmonioso à composição." />
                     <p className="estilizacao">R$ <b>20</b>/mês</p>
                     <p className="beneficios"><b>Beneficíos</b></p>
-                <ul>
-                    <li>Newslatters;</li>
-                    <li>Relatórios mensais de <br />transparência.</li>
+                <ul className="listaSecaoDoacao">
+                    <li className="listaBeneficios">Newslatters;</li>
+                    <li className="listaBeneficios">Relatórios mensais de <br />transparência.</li>
                 </ul>
-                <input type="checkbox" id="opcao1" class="checkbox"></input>
+                <input type="checkbox" id="opcao1" className="checkboxSecaoDoacao"></input>
                 <label for="opcao1"><a className="botaoSelecao" href="#FormulárioDoacao">Selecionar esta opção</a></label>
                 </div>
 
@@ -51,13 +51,13 @@ function SecaoDoacao() {
                     <img className="centralizarIconDoar" src="src/assets/Donation.png" alt="A imagem mostra uma ilustração em estilo 3D de uma mão segurando uma moeda dourada com o símbolo de cifrão e inserindo-a em uma caixa de doação laranja com um coração desenhado na frente. Ao fundo, há elementos decorativos verdes que lembram folhas ou plantas, conferindo um tom natural e harmonioso à composição." />
                     <p className="estilizacao">R$ <b>40</b>/mês</p>
                     <p className="beneficios"><b>Beneficíos</b></p>
-                <ul>
-                    <li>Newslatters;</li>
-                    <li>Relatórios Mensais de transparência;</li>
-                    <li>Agradecimentos públicos;</li>
-                    <li>Comunidade de Networking.</li>
+                <ul className="listaSecaoDoacao">
+                    <li className="listaBeneficios">Newslatters;</li>
+                    <li className="listaBeneficios">Relatórios Mensais de transparência;</li>
+                    <li className="listaBeneficios">Agradecimentos públicos;</li>
+                    <li className="listaBeneficios">Comunidade de Networking.</li>
                 </ul>
-                <input type="checkbox" id="opcao2" class="checkbox"></input>
+                <input type="checkbox" id="opcao2" class="checkboxSecaoDoacao"></input>
                 <label for="opcao2"><a className="botaoSelecao" href="#FormulárioDoacao">Selecionar esta opção</a></label>
             </div>
             <img className="circuloPlanos" src="src/assets/Circulo.png" alt="um círculo com um gradiente de verde-azulado, que vai de um tom mais escuro no canto superior esquerdo para um tom mais claro no canto inferior direito. O círculo apresenta elementos decorativos, como pequenos ícones em formato de X e linhas curvas suaves, que adicionam textura. Há também alguns quadrados e linhas que parecem desenhados em um estilo minimalista, dando um toque moderno e abstrato à imagem. Ela possui uma sombra suave ao redor, dando um efeito de profundidade."/>

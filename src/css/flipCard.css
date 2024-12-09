@@ -6,11 +6,11 @@
     font-size: 2rem;
     font-weight: bold;
   }
-
+  
   .texto2 {
     font-size: 1.5rem;
   }
-
+  
   .flip-card {
     width: 44vw;
     height: 55vh;
@@ -45,7 +45,7 @@
     font-size: 1.5rem;
     border-radius: 2rem;
   }
-
+  
   .flip-card-front {
     background-color: transparent;
   }
@@ -54,7 +54,7 @@
     background-color: transparent;
     transform: rotateY(180deg);
   }
-
+  
   .card-1 .flip-card-front {
     background-color: #146F59; 
   }
@@ -88,7 +88,7 @@
   }
   
   
-/* Posicionando os cartões */
+  /* Posicionando os cartões */
   .card-1 {
     margin-top: 200px;
     position: absolute;
@@ -117,8 +117,8 @@
     top: 5464px;
   }
   
-
-@media (max-width: 1400px) {
+  
+  @media (max-width: 1400px) {
   .card-1 {
     margin-top: 400px;
     position: absolute;
@@ -146,9 +146,9 @@
     left: 856px;
     top: 5464px;
   }
-}
-
-@media (max-width: 1016px) {
+  }
+  
+  @media (max-width: 1016px) {
   .card-1 {
     margin-top: 1450px;
     left: 60px;
@@ -162,43 +162,17 @@
   .card-3 {
     margin-top: 1300px;
     left: 60px;
-
+  
   }
   
   .card-4 {
     margin-top: 1300px;
     left: 650px;
   }
-}
-
-@media (max-width: 830px) {
-  .texto2 {
-    font-size: 1.3rem;
-  }
-
-  .card-1 {
-    margin-top: 1650px;
-    left: 30px;
   }
   
-  .card-2 {
-    margin-top: 1650px;
-    left: 500px;
-  }
   
-  .card-3 {
-    margin-top: 1500px;
-    left: 30px;
-
-  }
-  
-  .card-4 {
-    margin-top: 1500px;
-    left: 500px;
-  }
-}
-
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
   .flip-card-front,
   .flip-card-back {
     position: absolute;
@@ -209,26 +183,19 @@
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     border-radius: 2rem;
   }
-
+  
   .flip-card {
-    margin-top: -350px;
     width: 80vw;
-    height: 55vh;
-    margin-left: 70px;
+    height: 50vh;
   }
-
-  .flip-card.flipped .flip-card-inner {
-    transform: rotateY(180deg);
-    margin-left: -17vw;
-  }
-
+  
   .flip-card-container {
     margin-bottom: 50vh;
   }
-
+  
   .card-1,
   .card-2,
   .card-3,
