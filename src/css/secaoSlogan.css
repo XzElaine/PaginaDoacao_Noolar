@@ -1,6 +1,6 @@
 .ContainerSlogan {
     margin-top: 200px;
-    background: url(src/assets/BackgroundSlogan.png) no-repeat center center;
+    background: url('/BackgroundSlogan.png') no-repeat center center;
     width: 100%;
     min-height: 140vh;
     background-size: cover;
