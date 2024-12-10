@@ -66,8 +66,8 @@
     color: #198168; 
 }
 
-
 @media (max-width: 1532px) {
+
     .imagemDonar {
     width: 70vw;
     height: 800px;  
@@ -83,7 +83,7 @@
     .retanguloMotivo2 {
         width: 880px;
         height: 240px;
-        left: 477px;
+        left: 630px;
         top: 1464px;
     }
     
@@ -220,7 +220,6 @@
     .motivoDoacao {
         font-size: 2.4em; 
     }
-    
 }
 
 @media (max-width: 870px) {

@@ -20,6 +20,13 @@
     color: #F3B95A;
 }
 
+
+@media (max-width: 1532px){
+    .ContainerSlogan {
+        margin-top: 750px;
+    }
+}
+
 @media (max-width: 1400px) {
     .ContainerSlogan {
         margin-top: 40px;

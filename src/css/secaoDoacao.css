@@ -184,6 +184,22 @@
     position: absolute;
 }
 
+@media (max-width: 1532px){
+    .circuloPlanos {
+        margin-left: 975px;
+    }
+
+    .card2 {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1520px){
+    .circuloPlanos {
+        margin-left: 960px;
+    }
+}
+
 @media (max-width: 1400px) {
 
     .btnDoacao {

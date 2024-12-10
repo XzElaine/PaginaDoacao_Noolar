@@ -117,6 +117,37 @@
     top: 5464px;
   }
   
+  @media (max-width: 1532px){
+    .card-1 {
+      margin-top: 200px;
+      position: absolute;
+      left: 103px;
+      top: 4911px;
+    }
+    
+    .card-2 {
+      margin-top: 200px;
+      position: absolute;
+      left: 857px;
+      top: 4911px;
+    }
+    
+    .card-3 {
+      margin-top: 590px;
+      position: absolute;
+      left: 103px;
+      top: 5000px;
+      margin-bottom: 200px;
+    }
+    
+    .card-4 {
+      margin-top: 590px;
+      position: absolute;
+      left: 856px;
+      top: 5000px;
+      margin-bottom: 200px;
+    }
+}
   
   @media (max-width: 1400px) {
   .card-1 {
@@ -146,6 +177,7 @@
     left: 856px;
     top: 5464px;
   }
+
   }
   
   @media (max-width: 1016px) {
@@ -170,6 +202,41 @@
     left: 650px;
   }
   }
+
+  @media (max-width: 1016px) {
+  .card-1 {
+    margin-top: 1450px;
+    left: 60px;
+  }
+  
+  .card-2 {
+    margin-top: 1450px;
+    left: 550px;
+  }
+  
+  .card-3 {
+    margin-top: 1300px;
+    left: 60px;
+  
+  }
+  
+  .card-4 {
+    margin-top: 1300px;
+    left: 550px;
+  }
+  }
+
+
+  @media (max-width: 990px) {
+    .texto1 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    
+    .texto2 {
+      font-size: 1.3rem;
+    }
+  }
   
   
   @media (max-width: 768px) {
@@ -185,6 +252,11 @@
     color: white;
     font-size: 1.5rem;
     border-radius: 2rem;
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    margin-top: -300px;
   }
   
   .flip-card {
@@ -203,4 +275,14 @@
     position: static;
     margin-top: 2rem;
   }
+  
+  .flip-card-front {
+    margin-left: 20vw;
+  }
+
+  .flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+    margin-left: 3vw;
+  }
+
 }
