@@ -12,13 +12,13 @@
 .tituloDoacao {
     margin-top: 60px;
     margin-bottom: 60px;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: white;
     text-align: center;
 }
 
 .caminhoDoacao {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -38,11 +38,11 @@
     width: 100%;
     max-width: 500px;
     text-align: center;
-    margin-bottom: 20px; /* Espaçamento entre caixas */
+    margin-bottom: 20px; 
 } 
 
 .doadorRecorrente {
-    margin-top: 200px;
+    margin-top: 100px;
     font-size: 60px;
     text-align: center;
     color: #146F59;
@@ -143,17 +143,17 @@
 }
 
 .btnDoacao {
-    font-size: 48px;
+    font-size: 40px;
     border: none;
     border-radius: 50px;
     margin-top: 60px;
     margin-bottom: 50px;
     width: 600px;
-    height: 102px;
+    height: 80px;
     color: #fff;
     background-color: #F6794A;
     cursor: pointer;
-    margin-left: 435px;
+    margin-left: 455px;
 }
 
 .card2 {
@@ -199,6 +199,13 @@
         margin-left: 960px;
     }
 }
+
+@media (max-width: 1462px) {
+    .circuloPlanos {
+        margin-left: 450px;
+    }
+}
+
 
 @media (max-width: 1400px) {
 
@@ -251,6 +258,12 @@
 
     .checkboxSecaoDoacao, .botaoSelecao {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 1206px) {
+    .circuloPlanos {
+        margin-left: 460px;
     }
 }
 
@@ -353,5 +366,16 @@
 
     .tituloDuvidas {
         margin-bottom: 70px;
+    }
+
+    .circuloPlanos {
+        margin-left: 85px;
+        width: 400px;
+        height: 600px;
+    }
+
+    .card {
+        width: 480px;
+        height: 515px;
     }
 }

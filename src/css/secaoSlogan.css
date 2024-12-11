@@ -13,7 +13,7 @@
     color: #fff;
     text-align: center;
     font-size: 60px;
-    margin-top: 500px;
+    margin-top: 400px;
 }
 
 .spanSlogan {
@@ -36,8 +36,32 @@
     }
 }
 
+@media (max-width: 1000px) {
+
+    .Slogan {
+        color: #fff;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 300px;
+    }
+}
+
 @media (max-width: 768px) {
     .ContainerSlogan {
         margin-top: -350px;
     }
 }
+
+@media (max-width: 500px) {
+    .ContainerSlogan {
+        margin-top: -350px;
+    }
+
+    .Slogan {
+        color: #fff;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 300px;
+    }
+}
+
